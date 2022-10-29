@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/controlador-de-videojuegos.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Juego del ahorcado</title>
+</head>
+<body>
+    <!--Contenedor del juego-->
+    <div class="juego">
+        <h1>Juego del Ahorcado</h1>
+        <p>Introduzca la letra</p>
+        <input id="letra" type="text" maxlength="1">
+        <button id="button">Evaluar</button>
+        <p id="salida"></p>
+        <div class="ahorcado">
+        </div>
+    </div>
+    <!--Contenedor de victoria-->
+    <div class="victoria">
+        <div class="content">
+            <h2>Victoria</h2>
+            <p>En hora buena 😍</p>
+            <img src="/img/emoji.png" alt="Imagen de victoria">
+        </div>
+    </div>
+    <!--Contenedor de has fallado-->
+    <div class="perdio">
+        <div class="content">
+            <h2>Has fallado</h2>
+            <img src="/img/emjitriste.png" alt="Imagen">
+        </div>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+</html>

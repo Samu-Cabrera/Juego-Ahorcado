@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    width: 100vw;
+    height: 100vh;
+    font-family: "Roboto", Arial;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #f3f3f3;
+}
+h1, h2 {
+    font-size: 2.5rem;
+    color: #272424;
+}
+p {
+    font-size: 1rem;
+    font-weight: 600;
+    margin-top: 1rem;
+}
+.juego {
+    background: #fff;
+    text-align: center;
+    padding: 5rem 8rem;
+    border-radius: 20px;
+    box-shadow: 10px 5px 30px rgba(0,0,0,0.1);
+}
+input {
+    background: #f3f3f3;
+    border: 2px solid rgba(0,0,0,0.1);
+    border-radius: 20px;
+    margin: 1rem 1rem 0 0 ;
+    padding: .4rem 1rem;
+}
+button {
+    width: 100px;
+    padding: .4rem;
+    background: rgba(5, 70, 168, 0.822);
+    border: none;
+    border-radius: 20px;
+    color: #fff;
+    box-sizing: 10px 5px 30px rgba(0,0,0,.1);
+}
+button:hover {
+    background: rgba(0, 43, 107, 0.822);
+    cursor: pointer;
+}
+.ahorcado {
+    width: 154px;
+    height: 159px;
+    background: url('../img/hangman-game_pm-768x159.webp');
+    background-repeat: no-repeat;
+    margin: 1rem auto;
+}
+.victoria, .perdio {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background: #f3f3f3;
+    position: absolute;
+    top: 0;
+}
+.content {
+    width: 50%;
+    padding: 3rem;
+    background: #fff;
+    border-radius: 15px;
+    box-shadow: 10px 5px 25px rgba(0,0,0,0.1);
+    text-align: center;
+    margin-bottom: 1rem;
+}
+.content img {
+    width: 180px;
+    margin: 1rem;
+}
+ 
